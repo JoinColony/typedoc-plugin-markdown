@@ -1,6 +1,6 @@
 {
   "name": "@colony/typedoc-plugin-markdown",
-  "version": "3.13.1",
+  "version": "3.14.0",
   "description": "A fork of typedoc-plugin-markdown with a different layout better suited for GitBook",
   "main": "dist/index.js",
   "files": [
@@ -43,7 +43,7 @@
   "dependencies": {
     "handlebars": "^4.7.7"
   },
-  "gitHead": "9faf6bf8ca03f2c5069febe8f74b0a16852c555f",
+  "gitHead": "7faed9a20aa4cf24f8ece1317ff95e7b99cc9e62",
   "publishConfig": {
     "access": "public"
   }

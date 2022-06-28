@@ -6,8 +6,6 @@ exports[`Members: (member) should compile a signature members' 1`] = `
 #### Returns
 
 \`void\`
-
-[partial: member.sources]
 "
 `;
 
@@ -26,8 +24,6 @@ exports[`Members: (member) should compile members with getter' 1`] = `
 #### Returns
 
 \`string\`
-
-[partial: member.sources]
 "
 `;
 
@@ -45,8 +41,6 @@ exports[`Members: (member) should compile members with setter' 1`] = `
 #### Returns
 
 \`void\`
-
-[partial: member.sources]
 "
 `;
 
@@ -78,7 +72,5 @@ exports[`Members: (with hideMembersSymbol) should compile members without specia
 #### Returns
 
 \`void\`
-
-[partial: member.sources]
 "
 `;

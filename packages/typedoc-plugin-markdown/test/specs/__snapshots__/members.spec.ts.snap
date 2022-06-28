@@ -1,17 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Members: (member) should compile a signature members' 1`] = `
-"### signatureMember
-
-▸ **signatureMember**(): \`void\`
+"### ▸ **signatureMember**(): \`void\`
 
 #### Returns
 
 \`void\`
 
 [partial: member.sources]
-
-___
 "
 `;
 
@@ -19,10 +15,6 @@ exports[`Members: (member) should compile declaration members' 1`] = `
 "### declarationMember
 
 • **declarationMember**: \`string\`
-
-[partial: member.sources]
-
-___
 "
 `;
 
@@ -36,8 +28,6 @@ exports[`Members: (member) should compile members with getter' 1`] = `
 \`string\`
 
 [partial: member.sources]
-
-___
 "
 `;
 
@@ -57,8 +47,6 @@ exports[`Members: (member) should compile members with setter' 1`] = `
 \`void\`
 
 [partial: member.sources]
-
-___
 "
 `;
 
@@ -85,16 +73,12 @@ exports[`Members: (members) should compile module members' 1`] = `
 `;
 
 exports[`Members: (with hideMembersSymbol) should compile members without special symbols 1`] = `
-"### signatureMember
-
-**signatureMember**(): \`void\`
+"### **signatureMember**(): \`void\`
 
 #### Returns
 
 \`void\`
 
 [partial: member.sources]
-
-___
 "
 `;

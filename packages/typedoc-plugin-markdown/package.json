@@ -1,7 +1,7 @@
 {
-  "name": "typedoc-plugin-markdown",
+  "name": "@colony/typedoc-plugin-markdown",
   "version": "3.13.1",
-  "description": "A plugin for TypeDoc that enables TypeScript API documentation to be generated in Markdown.",
+  "description": "A fork of typedoc-plugin-markdown with a different layout better suited for GitBook",
   "main": "dist/index.js",
   "files": [
     "dist/"
@@ -21,14 +21,14 @@
   "author": "Thomas Grey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tgreyuk/typedoc-plugin-markdown/issues"
+    "url": "https://github.com/JoinColony/typedoc-plugin-markdown/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgreyuk/typedoc-plugin-markdown.git",
+    "url": "git+https://github.com/JoinColony/typedoc-plugin-markdown.git",
     "directory": "packages/typedoc-plugin-markdown"
   },
-  "homepage": "https://github.com/tgreyuk/typedoc-plugin-markdown/tree/master/packages/typedoc-plugin-markdown",
+  "homepage": "https://github.com/JoinColony/typedoc-plugin-markdown/tree/master/packages/typedoc-plugin-markdown",
   "keywords": [
     "markdown",
     "typescript",
@@ -42,5 +42,9 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7"
+  },
+  "gitHead": "9faf6bf8ca03f2c5069febe8f74b0a16852c555f",
+  "publishConfig": {
+    "access": "public"
   }
 }

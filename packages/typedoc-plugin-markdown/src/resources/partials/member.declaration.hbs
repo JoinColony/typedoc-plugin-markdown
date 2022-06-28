@@ -16,20 +16,6 @@
 
 {{#if type.declaration}}
 
-{{#if type.declaration.indexSignature}}
-
-{{#with type.declaration.indexSignature}}
-
-#### Index signature
-
-{{{indexSignatureTitle}}}
-
-{{> comment}}
-
-{{/with}}
-
-{{/if}}
-
 {{#if type.declaration.signatures}}
 
 {{#if type.declaration.children}}
@@ -67,5 +53,3 @@
 {{/if}}
 
 {{/if}}
-
-{{> member.sources}}

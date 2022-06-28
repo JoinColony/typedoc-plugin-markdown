@@ -1,6 +1,6 @@
 {
   "name": "@colony/typedoc-plugin-markdown",
-  "version": "3.13.1",
+  "version": "3.14.0",
   "description": "A fork of typedoc-plugin-markdown with a different layout better suited for GitBook",
   "main": "dist/index.js",
   "files": [

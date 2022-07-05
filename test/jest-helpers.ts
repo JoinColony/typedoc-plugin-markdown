@@ -11,7 +11,7 @@ import {
   TypeDocReader,
   UrlMapping,
 } from 'typedoc';
-import { formatContents } from 'typedoc-plugin-markdown/src/utils';
+import { formatContents } from '@colony/typedoc-plugin-markdown/src/utils';
 
 global.bootstrap = async (entryPoints: string[] = [], options: any = {}) => {
   const app = new Application();

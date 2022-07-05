@@ -1,3 +1,13 @@
+{{#if signatures}}
+
+{{#each signatures}}
+
+### {{> member.signature showSources=true }}
+
+{{/each}}
+
+{{else}}
+
 {{#unless hasOwnDocument}}
 
 {{#if name}}
@@ -7,16 +17,6 @@
 {{/if}}
 
 {{/unless}}
-
-{{#if signatures}}
-
-{{#each signatures}}
-
-{{> member.signature showSources=true }}
-
-{{/each}}
-
-{{else}}
 
 {{#if hasGetterOrSetter}}
 
@@ -37,9 +37,3 @@
 {{/if}}
 
 {{/if}}
-
-{{#unless @last}}
-{{#unless hasOwnDocument}}
-___
-{{/unless}}
-{{/unless}}
